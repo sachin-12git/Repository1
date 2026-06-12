@@ -1,2 +1,3 @@
 pull command :- The pull command is used to download changes from a remote repository and immediately integrate them into your current local machine.
 command :- git pull
+the main perpose of this command is to avoid git cloning everytime.
