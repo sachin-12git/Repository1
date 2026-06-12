@@ -1,3 +1,10 @@
-pull command :- The pull command is used to download changes from a remote repository and immediately integrate them into your current local machine.
-command :- git pull
-the main perpose of this command is to avoid git cloning everytime.
+- pull command :-
+-  The pull command is used to download changes from a remote repository and immediately integrate them into your current local machine.
+-  command :- git pull
+-  the main perpose of this command is to avoid git cloning everytime.
+
+- how it works:-
+- the git pull command is actually a shorthand combination ot two distinct action.
+1. git fetch : connect to your remote repository and downloads the newest commits without modifying your local working files.
+
+2. git merge : immediately integrate those downloads commits into the local branch you are currently working on.
